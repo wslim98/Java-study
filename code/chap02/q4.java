@@ -15,5 +15,7 @@ public class q4 {
 		int second = seconds % 60;
 		
 		System.out.printf("%d시간 %d분 %d초", hour, minute, second);
+		
+		in.close();
 	}
 }
