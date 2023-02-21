@@ -12,5 +12,7 @@ public class q8 {
 		
 		int result = num/100 + (num%100)/10 + num%10;
 		System.out.printf("각 자릿수의 합 = %d", result);
+		
+		in.close();
 	}
 }
